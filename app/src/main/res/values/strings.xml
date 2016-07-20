@@ -1,0 +1,15 @@
+<!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <string name="app_name">Book Listing Project</string>
+    <string name="txtSearch">Search String</string>
+    <string name="btnSearch">Search</string>
+    <string name="message_no_value">No value</string>
+    <string name="error_unable_retrieve">Unable to retrieve web page. URL may be invalid.</string>
+    <string name="error_no_connection">No network connection available.</string>
+</resources>

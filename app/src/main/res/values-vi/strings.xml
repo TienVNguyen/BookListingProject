@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <string name="app_name">App tìm sách</string>
+    <string name="txtSearch">Nhập thông tin</string>
+    <string name="btnSearch">Tìm kiếm</string>
+    <string name="message_no_value">Không tồn tại</string>
+    <string name="error_unable_retrieve">Không truy cập được. Kiểm tra URL</string>
+    <string name="error_no_connection">Không kết nối mạng</string>
+</resources>
