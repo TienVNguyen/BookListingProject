@@ -7,43 +7,21 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    style="@style/LinearLayoutActivityMain"
     tools:context=".activities.MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/ActivityMainLinearLayout">
 
         <EditText
             android:id="@+id/edtSearch"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:hint="@string/txtSearch"
-            android:inputType="text"
-            android:textColor="@android:color/darker_gray"
-            android:textStyle="normal" />
+            style="@style/ActivityMainEdtSearch" />
 
         <Button
             android:id="@+id/btnSearch"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/btnSearch"
-            android:textColor="@android:color/holo_red_dark"
-            android:textStyle="bold" />
+            style="@style/ActivityMainBtnSearch" />
     </LinearLayout>
 
     <ListView
         android:id="@+id/lvBook"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        style="@style/ActivityMainLvBook" />
 </LinearLayout>

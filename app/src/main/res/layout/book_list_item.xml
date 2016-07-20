@@ -6,38 +6,21 @@
   -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_horizontal_margin">
+    style="@style/BookListItemLayout">
 
     <ImageView
         android:id="@+id/lvBook_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:contentDescription="@string/app_name" />
+        style="@style/BookListItemView" />
 
     <TextView
         android:id="@+id/lvBook_link"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/holo_blue_light" />
+        style="@style/BookListItemLink" />
 
     <TextView
         android:id="@+id/lvBook_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/holo_red_dark"
-        android:textStyle="bold" />
+        style="@style/BookListItemTitle" />
 
     <TextView
         android:id="@+id/lvBook_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ellipsize="end"
-        android:maxLength="300"
-        android:maxLines="2"
-        android:textColor="@android:color/black" />
+        style="@style/BookListItemDescription" />
 </LinearLayout>

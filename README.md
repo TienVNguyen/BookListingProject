@@ -1,10 +1,9 @@
 # BookListingProject
 An small demo app to complete the project 7. See the Tutorial on our cliffnotes for a step-by-step tutorial.
 
-Time spent: 12 hours implementation (included searching) in total
+Time spent: 4 hours implementation (included searching) in total
  - 07/20: 4 hours
- - 07/21: 4 hours
- - 07/22: 4 hours
+
 
 Implement link: https://github.com/TienVNguyen/BookListingProject
 

@@ -15,4 +15,88 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- activity_main -->
+    <style name="LinearLayoutActivityMain" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <!-- activity_main/linearLayout -->
+    <style name="ActivityMainLinearLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- activity_main/edtSearch -->
+    <style name="ActivityMainEdtSearch" >
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:hint">@string/txtSearch</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- activity_main/btnSearch -->
+    <style name="ActivityMainBtnSearch" >
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:hint">@string/btnSearch</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- activity_main/lvBook -->
+    <style name="ActivityMainLvBook" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- book_list_item -->
+    <style name="BookListItemLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <!-- book_list_item/lvBook_image -->
+    <style name="BookListItemView" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+
+    <!-- book_list_item/lvBook_link -->
+    <style name="BookListItemLink" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+    </style>
+
+    <!-- book_list_item/lvBook_title -->
+    <style name="BookListItemTitle" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- book_list_item/lvBook_description -->
+    <style name="BookListItemDescription" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLength">300</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
 </resources>
